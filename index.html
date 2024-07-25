@@ -8,6 +8,14 @@
     <title>Guess the number!</title>
     <style>
 
+        #warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
 
 
         @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
